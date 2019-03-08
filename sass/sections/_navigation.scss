@@ -3,13 +3,19 @@
   ul {
     list-style: none;
     padding: 5px;
+    margin: 0 10px;
     li {
       display: inline-block;
       a {
         display: block;
+        font-size: 20px;
         color: #fff;
         margin: 10px;
         text-decoration: none;
+        &:hover {
+          color: #A52025;
+          transition: 0.5s;
+        }
       }
     }
   }

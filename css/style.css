@@ -13,6 +13,7 @@
 .navigation ul {
   list-style: none;
   padding: 5px;
+  margin: 0 10px;
 }
 
 .navigation ul li {
@@ -21,9 +22,15 @@
 
 .navigation ul li a {
   display: block;
+  font-size: 20px;
   color: #fff;
   margin: 10px;
   text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  color: #A52025;
+  transition: 0.5s;
 }
 
 * {
