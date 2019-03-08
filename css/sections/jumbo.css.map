@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "jumbo.css",
+	"sources": [
+		"../../sass/sections/jumbo.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,6BAA6B;EAC/C,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;EACtB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CACZ"
+}

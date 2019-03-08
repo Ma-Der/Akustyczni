@@ -1,7 +1,7 @@
 {
-  "name": "learning-git",
+  "name": "Akustyczni",
   "version": "1.0.0",
-  "description": "",
+  "description": "Strona zespołu Akustyczni",
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:*",
@@ -22,15 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ma-Der/Learning-time.git"
+    "url": "git+https://github.com/Ma-Der/Akustyczni.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ma-Der/Learning-time/issues"
+    "url": "https://github.com/Ma-Der/Akustyczni/issues"
   },
-  "homepage": "https://github.com/Ma-Der/Learning-time#readme",
+  "homepage": "https://github.com/Ma-Der/Akustyczni#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.24.7",
