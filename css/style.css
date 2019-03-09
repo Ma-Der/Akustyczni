@@ -18,6 +18,8 @@
 
 .navigation ul li {
   display: inline-block;
+  text-align: center;
+  position: relative;
 }
 
 .navigation ul li a {
@@ -30,7 +32,32 @@
 
 .navigation ul li a:hover {
   color: #A52025;
-  transition: 0.5s;
+  transition: 0.2s;
+}
+
+.navigation ul li:hover ul {
+  display: flex;
+}
+
+.navigation ul li ul {
+  display: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation ul li ul li {
+  border: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+}
+
+.navigation ul li ul li a {
+  display: block;
 }
 
 * {
