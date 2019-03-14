@@ -1,8 +1,8 @@
 .navigation {
-  text-align: right;
+  text-align: center;
+  padding: 20px;
   ul {
     list-style: none;
-    padding: 5px;
     margin: 0 10px;
     li {
       display: inline-block;
@@ -11,7 +11,7 @@
       a {
         display: block;
         font-size: 20px;
-        color: #fff;
+        color: #000;
         margin: 10px;
         text-decoration: none;
         &:hover {
@@ -27,8 +27,8 @@
       ul {
         display: none;
         position: absolute;
-        right: 0;
-        left: 0;
+        right: -50%;
+        left: 50%;
         margin: 0;
         align-items: center;
         justify-content: center;
