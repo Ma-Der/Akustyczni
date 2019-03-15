@@ -1,6 +1,8 @@
-@import './components/_main.scss';
-@import './sections/_jumbo.scss';
-@import './sections/_navigation.scss';
+@import './layout';
+@import './components/main';
+@import './sections/jumbo';
+@import './sections/navigation';
+
 
 
 * {
