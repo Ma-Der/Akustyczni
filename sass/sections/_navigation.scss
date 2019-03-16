@@ -12,6 +12,7 @@
 
   }
   ul {
+    background-color: #ffcccc;
     border: 1px solid #990000;
     border-radius: 25px;
     display: flex;
@@ -33,6 +34,7 @@
         margin: 10px;
         text-decoration: none;
         &:hover {
+          font-weight: bold;
           color: #A52025;
           transition: 0.2s;
         }
