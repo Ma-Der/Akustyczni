@@ -3,13 +3,13 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 685px;
   width: 100%;
 }
 
 .row {
-  border: none;
   display: flex;
+  border: none;
   max-width: 100%;
 }
 [class*="col-"] {

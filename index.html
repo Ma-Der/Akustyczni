@@ -6,31 +6,44 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-      <nav class="navigation container">
-        <ul>
-          <li>
-            <a href='#' class="start">Start/Aktualności</a>
-          </li>
-          <li>
-            <a href='#' class="band">Zespół</a>
+      <div class="row">
+        <div class="col-12 navigation">
+          <div class="col-4">
+            <img src='./images/logo.png' class="logo"/>
+          </div>
+          <div class="nav col-8">
             <ul>
-              <li><a href="#">Maryla</a></li>
-              <li><a href="#">Tomek</a></li>
-              <li><a href="#">Franek</a></li>
-              <li><a href="#">Patryk</a></li>
-              <li><a href="#">Maciek</a></li>
-              <li><a href="#">Maciek</a></li>
-              <li><a href="#">Marcin</a></li>
+              <li>
+                <a href='#main' class="start">Start/Aktualności</a>
+              </li>
+              <li>
+                <a href='#main' class="band">Zespół</a>
+                <ul>
+                  <li><a href="#main" class="maryla">Maryla</a></li>
+                  <li><a href="#main" class="tomek">Tomek</a></li>
+                  <li><a href="#main" class="franek">Franek</a></li>
+                  <li><a href="#main" class="patryk">Patryk</a></li>
+                  <li><a href="#main" class="maciekm">Maciek</a></li>
+                  <li><a href="#main" class="maciekd">Maciek</a></li>
+                  <li><a href="#main" class="marcin">Marcin</a></li>
+                </ul>
+              </li>
+              <li><a href='#main' class="media">Media</a></li>
+              <li>
+                <a href='#main' class="offer">Oferta</a>
+                <ul>
+                  <li><a href='#main' class="repertuar">Repertuar</a></li>
+                  <li><a href='#main' class="cennik">Cennik</a></li>
+                </ul>
+              </li>
+              <li><a href='#main' class="contact">Kontakt</a></li>
             </ul>
-          </li>
-          <li><a href='#' class="media">Media</a></li>
-          <li><a href='#' class="offer">Oferta</a></li>
-          <li><a href='#' class="contact">Kontakt</a></li>
-        </ul>
-      </nav>
+          </div>
+        </div>
+      </div>
       <img src="./images/akustyczni.jpg" class="jumbo" alt="front"/>
-    <div class="main" id="main"></div>
-    <footer class="container">© Akustyczni</footer>
+    <div class="main container" id="main"></div>
+    <footer class="footer container">© Akustyczni</footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="js/script.js"></script>

@@ -51,10 +51,33 @@ const offerPage = document.querySelector('.offer');
         );
     });
 
-    const contactPage = document.querySelector('.contact');
-        contactPage.addEventListener('click', function(){
-          loadPage('./src/contact.html')
-            .then(
-              page => mainPage.innerHTML = page
-            );
-        });
+const contactPage = document.querySelector('.contact');
+    contactPage.addEventListener('click', function(){
+      loadPage('./src/contact.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+    });
+
+const marylaPage = document.querySelector('.maryla');
+    marylaPage.addEventListener('click', function(){
+      loadPage('./src/maryla.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+    });
+const tomekPage = document.querySelector('.tomek');
+    tomekPage.addEventListener('click', function(){
+      loadPage('./src/tomek.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+    });
+
+const franekPage = document.querySelector('.franek');
+    franekPage.addEventListener('click', function(){
+      loadPage('./src/franek.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+      });
