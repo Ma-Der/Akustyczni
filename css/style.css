@@ -494,11 +494,15 @@
 }
 
 .footer {
+  background-color: #000;
+  color: #fff;
   padding: 15px;
+  text-align: center;
 }
 
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat';
   margin: 0;
   padding: 0;
 }

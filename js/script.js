@@ -81,3 +81,35 @@ const franekPage = document.querySelector('.franek');
           page => mainPage.innerHTML = page
         );
       });
+
+const maciekmPage = document.querySelector('.maciekm');
+    maciekmPage.addEventListener('click', function(){
+      loadPage('./src/maciekm.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+      });
+
+const maciekdPage = document.querySelector('.maciekd');
+    maciekdPage.addEventListener('click', function(){
+      loadPage('./src/maciekd.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+      });
+
+const patrykPage = document.querySelector('.patryk');
+    patrykPage.addEventListener('click', function(){
+      loadPage('./src/patryk.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+      });
+
+const marcinPage = document.querySelector('.marcin');
+    marcinPage.addEventListener('click', function(){
+      loadPage('./src/marcin.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+      });
