@@ -429,13 +429,13 @@
 }
 
 .navigation {
-  height: 180px;
   padding: 20px;
 }
 
 .navigation .logo {
   display: block;
   margin: 0 auto;
+  height: 180px;
   width: 180px;
 }
 
