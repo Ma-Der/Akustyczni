@@ -3,18 +3,26 @@
   .logo {
     display: block;
     margin: 0 auto;
-    height: 180px;
-    width: 180px;
+    height: 120px;
+    width: 120px;
   }
   .nav {
     justify-content: flex-start;
+    align-items: center;
+
   }
   ul {
+    border: 1px solid #990000;
+    border-radius: 25px;
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
+    li:nth-last-of-type(1) {
+      border-right: none;
+    }
     li {
+      border-right: 1px solid #990000;
       display: inline-block;
       text-align: center;
       position: relative;
@@ -37,8 +45,6 @@
       ul {
         display: none;
         position: absolute;
-        right: -50%;
-        left: 50%;
         margin: 0;
         align-items: center;
         justify-content: center;
