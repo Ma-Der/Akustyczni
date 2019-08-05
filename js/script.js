@@ -20,14 +20,14 @@ document.addEventListener('DOMContentLoaded', function(){
     );
 });
 
-const startPage = document.querySelector('.start');
+const startPage = document.querySelector('.akustyczni');
     startPage.addEventListener('click', function(){
       loadPage('./src/start.html')
         .then(
           page => mainPage.innerHTML = page
         );
     });
-const bandPage = document.querySelector('.band');
+const bandPage = document.querySelector('.zespol-na-wesele');
     bandPage.addEventListener('click', function(){
       loadPage('./src/zespol-na-wesele.html')
         .then(
@@ -35,9 +35,9 @@ const bandPage = document.querySelector('.band');
         );
     });
 
-const mediaPage = document.querySelector('.media');
+const mediaPage = document.querySelector('.galeria');
     mediaPage.addEventListener('click', function(){
-      loadPage('./src/media.html')
+      loadPage('./src/galeria.html')
         .then(
           page => mainPage.innerHTML = page
         );
