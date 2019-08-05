@@ -35,9 +35,17 @@ const bandPage = document.querySelector('.zespol-na-wesele');
         );
     });
 
-const mediaPage = document.querySelector('.galeria');
-    mediaPage.addEventListener('click', function(){
+const galleryPage = document.querySelector('.galeria');
+    galleryPage.addEventListener('click', function(){
       loadPage('./src/galeria.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+    });
+
+const videoPage = document.querySelector('.video');
+    videoPage.addEventListener('click', function(){
+      loadPage('./src/video.html')
         .then(
           page => mainPage.innerHTML = page
         );
