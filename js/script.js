@@ -29,7 +29,7 @@ const startPage = document.querySelector('.start');
     });
 const bandPage = document.querySelector('.band');
     bandPage.addEventListener('click', function(){
-      loadPage('./src/band.html')
+      loadPage('./src/zespol-na-wesele.html')
         .then(
           page => mainPage.innerHTML = page
         );
