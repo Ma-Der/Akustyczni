@@ -1,6 +1,7 @@
 .navigation {
   padding: 10px 0 0;
   box-shadow: 1px 1px 1px 1px #e0e0e0;
+
   .logo {
     display: block;
     margin: 0 auto;
@@ -12,6 +13,9 @@
     justify-content: center;
     align-items: center;
 
+  }
+  .active {
+    color: #e65656;
   }
   ul {
     display: flex;
@@ -26,6 +30,7 @@
         color: #000;
         padding: 0 0 0 24px;
         text-decoration: none;
+
         &:hover {
           font-weight: bold;
           color: #e65656;

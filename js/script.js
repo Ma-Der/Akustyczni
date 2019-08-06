@@ -1,5 +1,16 @@
 'use strict';
 
+var header = document.getElementById("mainmenu");
+var btns = header.getElementsByClassName("menu-el");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+
+
 function loadPage(href) {
   return new Promise((resolve, reject) => {
   const xmlhttp = new XMLHttpRequest();
@@ -66,58 +77,3 @@ const contactPage = document.querySelector('.contact');
           page => mainPage.innerHTML = page
         );
     });
-
-const marylaPage = document.querySelector('.maryla');
-    marylaPage.addEventListener('click', function(){
-      loadPage('./src/maryla.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
-    });
-const tomekPage = document.querySelector('.tomek');
-    tomekPage.addEventListener('click', function(){
-      loadPage('./src/tomek.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
-    });
-
-const franekPage = document.querySelector('.franek');
-    franekPage.addEventListener('click', function(){
-      loadPage('./src/franek.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
-      });
-
-const maciekmPage = document.querySelector('.maciekm');
-    maciekmPage.addEventListener('click', function(){
-      loadPage('./src/maciekm.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
-      });
-
-const maciekdPage = document.querySelector('.maciekd');
-    maciekdPage.addEventListener('click', function(){
-      loadPage('./src/maciekd.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
-      });
-
-const patrykPage = document.querySelector('.patryk');
-    patrykPage.addEventListener('click', function(){
-      loadPage('./src/patryk.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
-      });
-
-const marcinPage = document.querySelector('.marcin');
-    marcinPage.addEventListener('click', function(){
-      loadPage('./src/marcin.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
-      });
