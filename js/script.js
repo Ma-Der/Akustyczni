@@ -40,7 +40,7 @@ const startPage = document.querySelector('.akustyczni');
     });
 const bandPage = document.querySelector('.zespol-na-wesele');
     bandPage.addEventListener('click', function(){
-      loadPage('./src/zespol-na-wesele.html')
+      loadPage('./src/na-weselu.html')
         .then(
           page => mainPage.innerHTML = page
         );
