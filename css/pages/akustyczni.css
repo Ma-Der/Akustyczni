@@ -1,22 +1,5 @@
-.title {
-  color: #212121;
-  font-size: 35px;
-  font-weight: 600;
-  font-style: normal;
-  margin-top: 15px;
-}
+.title { color: #212121; font-size: 35px; font-weight: 600; font-style: normal; margin-top: 15px; }
 
-.subtitle {
-  color: #999;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 10px 0 0 0;
-}
+.subtitle { color: #999; font-size: 14px; font-weight: 400; padding: 10px 0 0 0; }
 
-.intro-text {
-  color: #5d5d5d;
-  line-height: 24px;
-  text-align: justify;
-}
-
-/*# sourceMappingURL=akustyczni.css.map */
+.intro-text { color: #5d5d5d; line-height: 24px; text-align: justify; }

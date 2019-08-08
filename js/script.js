@@ -62,9 +62,9 @@ const videoPage = document.querySelector('.video');
         );
     });
 
-const offerPage = document.querySelector('.offer');
+const offerPage = document.querySelector('.faq');
     offerPage.addEventListener('click', function(){
-      loadPage('./src/offer.html')
+      loadPage('./src/faq.html')
         .then(
           page => mainPage.innerHTML = page
         );
@@ -73,6 +73,21 @@ const offerPage = document.querySelector('.offer');
 const contactPage = document.querySelector('.contact');
     contactPage.addEventListener('click', function(){
       loadPage('./src/contact.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+    });
+const opiniePage = document.querySelector('.opinie');
+    opiniePage.addEventListener('click', function(){
+      loadPage('./src/opinie.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+    });
+
+const repertuarPage = document.querySelector('.repertuar');
+    repertuarPage.addEventListener('click', function(){
+      loadPage('./src/repertuar.html')
         .then(
           page => mainPage.innerHTML = page
         );
