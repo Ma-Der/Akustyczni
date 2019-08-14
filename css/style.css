@@ -421,7 +421,7 @@
   font-size: 35px;
   font-weight: 600;
   font-style: normal;
-  margin-top: 15px;
+  margin: 15px 0;
 }
 
 .subtitle {
@@ -434,7 +434,16 @@
 .intro-text {
   color: #5d5d5d;
   line-height: 24px;
+  padding: 5px;
   text-align: justify;
+}
+
+.faq-question {
+  color: #212121;
+  font-weight: 600;
+  font-style: normal;
+  margin: 30px 0;
+  text-align: center;
 }
 
 .main {
@@ -512,8 +521,8 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
