@@ -531,6 +531,11 @@
   flex-direction: column;
 }
 
+.form .form-mssg textarea {
+  min-height: 300px;
+  min-width: 300px;
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;

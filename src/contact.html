@@ -7,16 +7,22 @@
 <body>
   <div class="container contact">
     <h1 class="title">W razie pytań zapraszamy do kontaktu</h1>
-    <form class="form">
-      <div class="form-name">
-        <label>Imię: </label>
-        <input></input>
-      </div>
-      <div class="form-mssg">
-        <label>Wiadomość: </label>
-        <textarea></textarea>
-      </div>
+    <form action="https://formspree.io/mnqnwqdg" method="POST" class="form" id="akustyczni-form">
+      <label class="form-name">Imię:
+        <input type="text" name="name"></input>
+      </label>
+      <label class="form-mssg">Wiadomość:
+        <textarea wrap name="message"></textarea>
+      </label>
+      <label>
+        Twój e-mail:
+        <input type="email" name="email">
+      </label>
+      <button id="form-button">SEND</button>
+      <p id="form-status"></p>
+      <input type="hidden" name="_next" value="https://ma-der.github.io/Akustyczni/" />
     </form>
   </div>
+<script src="js/form.js"></script>
 </body>
 </html>
