@@ -1,5 +1,7 @@
 'use strict';
 
+/* page loading script */
+
 var header = document.getElementById("mainmenu");
 var btns = header.getElementsByClassName("menu-el");
 for (var i = 0; i < btns.length; i++) {
@@ -38,6 +40,14 @@ const startPage = document.querySelector('.akustyczni');
           page => mainPage.innerHTML = page
         );
     });
+const iconPage = document.querySelector('.icon-akustyczni');
+    iconPage.addEventListener('click', function(){
+      loadPage('./src/start.html')
+        .then(
+          page => mainPage.innerHTML = page
+        );
+    });
+
 const bandPage = document.querySelector('.zespol-na-wesele');
     bandPage.addEventListener('click', function(){
       loadPage('./src/na-weselu.html')
@@ -54,14 +64,6 @@ const galleryPage = document.querySelector('.galeria');
         );
     });
 
-const videoPage = document.querySelector('.video');
-    videoPage.addEventListener('click', function(){
-      loadPage('./src/video.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
-    });
-
 const offerPage = document.querySelector('.faq');
     offerPage.addEventListener('click', function(){
       loadPage('./src/faq.html')
@@ -73,13 +75,6 @@ const offerPage = document.querySelector('.faq');
 const contactPage = document.querySelector('.contact');
     contactPage.addEventListener('click', function(){
       loadPage('./src/contact.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
-    });
-const opiniePage = document.querySelector('.opinie');
-    opiniePage.addEventListener('click', function(){
-      loadPage('./src/opinie.html')
         .then(
           page => mainPage.innerHTML = page
         );
