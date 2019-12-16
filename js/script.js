@@ -143,5 +143,5 @@ const facebookRedirect = document.querySelector('#facebook');
   });
 const instagramRedirect = document.querySelector('#instagram');
   instagramRedirect.addEventListener('click', function() {
-  window.open("https:/www.instagram.com/akustyczni/",'_blank');
+  window.open("https://www.instagram.com/akustyczni/",'_blank');
   });
