@@ -61,17 +61,14 @@ const galleryPage = document.querySelector('.galeria');
         .then(
           page => {
             mainPage.innerHTML = page;
-            /* var elms = document.getElementsByClassName( 'splide' );
-            for ( var i = 0, len = elms.length; i < len; i++ ) {
-              new Splide( elms[ i ] ).mount();
-            } */
-            var elem = document.querySelector('.main-carousel');
-            var flkty = new Flickity( elem, {
-              // options
+
+            var flkty = new Flickity( '.main-carousel', {
+              on: {
               cellAlign: 'left',
               contain: true,
               groupCells: true,
               wrapAround: true
+              }
             });
           }
         )

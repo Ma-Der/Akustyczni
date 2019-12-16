@@ -2,14 +2,13 @@
   margin: 0 auto;
   min-width: 100%;
   min-height: 400px;
-  background-color: red;
 }
 
-.container2 {
+.carousel-container {
   position: relative;
   margin: 0 auto;
   max-width: 750px;
-  min-height: 1px;
+  min-height: 400px;
   width: 100%;
 }
 
@@ -18,6 +17,6 @@
 }
 
 .carousel-picture {
-  max-height: 400px;
+  max-height: 500px;
   min-width: 100%;
 }
