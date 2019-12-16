@@ -3,4 +3,23 @@
   color: #fff;
   padding: 1rem;
   text-align: center;
+  .footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i {
+      padding: 3px;
+      margin: 5px;
+      font-size: 20px;
+      &:hover {
+        color: #3B5998;
+        cursor: pointer;
+      }
+    }
+  }
+  .footer-credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

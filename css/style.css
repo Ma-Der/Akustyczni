@@ -551,6 +551,29 @@
   text-align: center;
 }
 
+.footer .footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer-icons i {
+  padding: 3px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.footer .footer-icons i:hover {
+  color: #3B5998;
+  cursor: pointer;
+}
+
+.footer .footer-credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .form {
   display: flex;
   align-items: center;

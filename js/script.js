@@ -136,3 +136,12 @@ const repertuarPage = document.querySelector('.repertuar');
           page => mainPage.innerHTML = page
         );
     });
+
+const facebookRedirect = document.querySelector('#facebook');
+  facebookRedirect.addEventListener('click', function() {
+    window.open("http://facebook.com/akustyczni.live/",'_blank');
+  });
+const instagramRedirect = document.querySelector('#instagram');
+  instagramRedirect.addEventListener('click', function() {
+  window.open("https:/www.instagram.com/akustyczni/",'_blank');
+  });
