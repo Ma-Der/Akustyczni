@@ -12,8 +12,17 @@
       margin: 5px;
       font-size: 20px;
       &:hover {
-        color: #3B5998;
         cursor: pointer;
+      }
+    }
+    .insta-icon {
+      &:hover {
+        color: #2C6A93;
+      }
+    }
+    .face-icon {
+      &:hover{
+        color: #3B5998;
       }
     }
   }
