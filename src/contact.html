@@ -7,18 +7,20 @@
 <body>
   <div class="container contact">
     <h1 class="title">W razie pytań zapraszamy do kontaktu</h1>
+    <h2 class="contact-data">E-mail: franciszek.slomka@gmail.com</h2>
+    <h2 class="contact-data">Tel.: 506 915 421</h2>
+    <h3 class="contact-form-invitation">Lub skorzystaj z formularza: </h3>
     <form action="https://formspree.io/mnqnwqdg" method="POST" class="form" id="akustyczni-form">
       <label class="form-name">Imię:
         <input type="text" name="name"></input>
       </label>
-      <label class="form-mssg">Wiadomość:
+      <label class="form-mssg">Wiadomość: </label>
         <textarea wrap name="message"></textarea>
-      </label>
-      <label>
+      <label class="form-mail">
         Twój e-mail:
         <input type="email" name="email" />
       </label>
-      <button id="form-button">SEND</button>
+      <button id="form-button" class="form-btn">WYŚLIJ</button>
       <p id="form-status"></p>
       <input type="hidden" name="_next" value="https://ma-der.github.io/Akustyczni/" />
     </form>

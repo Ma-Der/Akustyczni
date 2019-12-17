@@ -1,6 +1,6 @@
 'use strict';
 
-/* page loading script */
+/* navigation color change after click */
 
 var header = document.getElementById("mainmenu");
 var btns = header.getElementsByClassName("menu-el");
@@ -11,6 +11,8 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+/* page loading script */
 
 function loadPage(href) {
   return new Promise((resolve, reject) => {
@@ -62,6 +64,8 @@ const galleryPage = document.querySelector('.galeria');
           page => {
             mainPage.innerHTML = page;
 
+/* carousel init & options */
+
             var flkty = new Flickity( '.main-carousel', {
               on: {
               cellAlign: 'left',
@@ -88,6 +92,9 @@ const contactPage = document.querySelector('.contact');
         .then(
           page => {
             mainPage.innerHTML = page;
+
+      /* form send */
+
             window.addEventListener("DOMContentLoaded", function() {
 
               var form = document.getElementById("akustyczni-form");
@@ -136,6 +143,8 @@ const repertuarPage = document.querySelector('.repertuar');
           page => mainPage.innerHTML = page
         );
     });
+
+/* icons redirect */
 
 const facebookRedirect = document.querySelector('#facebook');
   facebookRedirect.addEventListener('click', function() {
