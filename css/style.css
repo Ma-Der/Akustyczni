@@ -466,12 +466,6 @@
   flex-direction: column;
 }
 
-.carousel-cell {
-  margin: 0 auto;
-  min-width: 100%;
-  min-height: 400px;
-}
-
 .carousel-container {
   position: relative;
   margin: 0 auto;
@@ -480,13 +474,27 @@
   width: 100%;
 }
 
-.main-carousel {
+.carousel-container .main-carousel {
   min-height: 400px;
 }
 
-.carousel-picture {
+.carousel-container .main-carousel .carousel-cell {
+  margin: 0 auto;
+  min-width: 100%;
+  min-height: 400px;
+}
+
+.carousel-container .main-carousel .carousel-cell .carousel-picture {
   max-height: 500px;
   min-width: 100%;
+}
+
+.carousel-nav {
+  min-width: 100%;
+}
+
+.carousel-nav img {
+  max-height: 50px;
 }
 
 .main {

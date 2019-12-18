@@ -1,22 +1,30 @@
-.carousel-cell {
-  margin: 0 auto;
-  min-width: 100%;
-  min-height: 400px;
-}
-
 .carousel-container {
   position: relative;
   margin: 0 auto;
   max-width: 750px;
   min-height: 400px;
   width: 100%;
+  .main-carousel {
+    min-height: 400px;
+    .carousel-cell {
+      margin: 0 auto;
+      min-width: 100%;
+      min-height: 400px;
+      .carousel-picture {
+        max-height: 500px;
+        min-width: 100%;
+      }
+    }
+  }
 }
 
-.main-carousel {
-  min-height: 400px;
-}
 
-.carousel-picture {
-  max-height: 500px;
+
+
+
+.carousel-nav {
   min-width: 100%;
+  img {
+    max-height: 50px;
+  }
 }

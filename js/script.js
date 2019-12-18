@@ -70,9 +70,15 @@ const galleryPage = document.querySelector('.galeria');
               on: {
               cellAlign: 'left',
               contain: true,
-              groupCells: true,
-              wrapAround: true
+              pageDots: false
               }
+            });
+
+            var carouselNav = new Flickity('.carousel-nav', {
+              asNavFor: '.main-carousel',
+              cellAlign: 'left',
+              contain: 'true',
+              pageDots: false
             });
           }
         )
