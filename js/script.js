@@ -66,20 +66,20 @@ const galleryPage = document.querySelector('.galeria');
 
 /* carousel init & options */
 
-            var flkty = new Flickity( '.main-carousel', {
-              on: {
+            const flkty = new Flickity( '.main-carousel', {
+              pageDots: false,
               cellAlign: 'left',
-              contain: true,
-              pageDots: false
-              }
+              contain: true
             });
+            setTimeout(function() {
+              const carouselNav = new Flickity('.carousel-nav', {
+                asNavFor: '.main-carousel',
+                pageDots: false,
+                cellAlign: 'left',
+                contain: true
+              });
+            }, 20);
 
-            var carouselNav = new Flickity('.carousel-nav', {
-              asNavFor: '.main-carousel',
-              cellAlign: 'left',
-              contain: 'true',
-              pageDots: false
-            });
           }
         )
     });
