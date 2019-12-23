@@ -78,7 +78,7 @@ const galleryPage = document.querySelector('.galeria');
                 cellAlign: 'left',
                 contain: true
               });
-            }, 20);
+            }, 100);
 
           }
         )
