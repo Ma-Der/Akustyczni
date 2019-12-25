@@ -1,34 +1,7 @@
-.title {
-  display: flex;
-  justify-content: center;
-  color: #212121;
-  font-size: 35px;
-  font-weight: 600;
-  font-style: normal;
-  margin: 15px 0;
-  max-height: 200px;
-}
+.title { display: flex; justify-content: center; color: #212121; font-size: 35px; font-weight: 600; font-style: normal; margin: 15px 0; max-height: 200px; }
 
-.subtitle {
-  color: #999;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 10px 0 0 0;
-}
+.subtitle { color: #999; font-size: 14px; font-weight: 400; padding: 10px 0 0 0; }
 
-.intro-text {
-  color: #5d5d5d;
-  line-height: 24px;
-  padding: 5px;
-  text-align: justify;
-}
+.intro-text { color: #5d5d5d; line-height: 24px; padding: 5px; text-align: justify; }
 
-.front-photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 300px;
-  max-height: 300px;
-}
-
-/*# sourceMappingURL=akustyczni.css.map */
+.front-photo { display: block; margin-left: auto; margin-right: auto; max-width: 300px; max-height: 300px; }

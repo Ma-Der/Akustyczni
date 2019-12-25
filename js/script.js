@@ -57,6 +57,7 @@ const bandPage = document.querySelector('.zespol-na-wesele');
         );
     });
 
+
 const galleryPage = document.querySelector('.galeria');
     galleryPage.addEventListener('click', function(){
       loadPage('./src/galeria.html')
@@ -66,7 +67,7 @@ const galleryPage = document.querySelector('.galeria');
 
 /* carousel init & options */
 
-            const flkty = new Flickity( '.main-carousel', {
+           const flkty = new Flickity( '.main-carousel', {
               pageDots: false,
               cellAlign: 'left',
               contain: true
@@ -78,8 +79,7 @@ const galleryPage = document.querySelector('.galeria');
                 cellAlign: 'left',
                 contain: true
               });
-            }, 100);
-
+            }, 500);
           }
         )
     });
@@ -101,7 +101,7 @@ const contactPage = document.querySelector('.contact');
 
       /* form send */
 
-            window.addEventListener("DOMContentLoaded", function() {
+            mainPage.addEventListener("load", function() {
 
               var form = document.getElementById("akustyczni-form");
               var button = document.getElementById("form-button");
