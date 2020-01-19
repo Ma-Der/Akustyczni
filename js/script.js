@@ -1,4 +1,5 @@
 'use strict';
+import setList from './setlist.js';
 
 /* navigation color change after click */
 
@@ -79,7 +80,7 @@ const galleryPage = document.querySelector('.galeria');
                 cellAlign: 'left',
                 contain: true
               });
-            }, 500);
+            }, 800);
           }
         )
     });
@@ -146,7 +147,17 @@ const repertuarPage = document.querySelector('.repertuar');
     repertuarPage.addEventListener('click', function(){
       loadPage('./src/repertuar.html')
         .then(
-          page => mainPage.innerHTML = page
+          page => {
+            mainPage.innerHTML = page;
+
+            for (let i=0; i < setList.length; i++) {
+              let ulList = document.getElementById('set-list');
+              let liElement = document.createElement('li');
+              liElement.classList.add('song');
+              liElement.appendChild(document.createTextNode(setList[i].artist + ' - ' + setList[i].title));
+              ulList.appendChild(liElement);
+            }
+        }
         );
     });
 
