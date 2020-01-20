@@ -73,14 +73,6 @@ const galleryPage = document.querySelector('.galeria');
               cellAlign: 'left',
               contain: true
             });
-            setTimeout(function() {
-              const carouselNav = new Flickity('.carousel-nav', {
-                asNavFor: '.main-carousel',
-                pageDots: false,
-                cellAlign: 'left',
-                contain: true
-              });
-            }, 800);
           }
         )
     });
