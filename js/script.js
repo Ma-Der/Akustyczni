@@ -1,5 +1,6 @@
 'use strict';
 import setList from './setlist.js';
+import { personObserver } from './mainPage.js';
 
 /* navigation color change after click */
 
@@ -31,30 +32,34 @@ const mainPage = document.getElementById('main');
 document.addEventListener('DOMContentLoaded', function(){
   loadPage('./src/start.html')
     .then(
-      page => mainPage.innerHTML = page
+      page => {
+        mainPage.innerHTML = page;
+        personObserver();
+      }
     );
+    
 });
 
 const startPage = document.querySelector('.akustyczni');
     startPage.addEventListener('click', function(){
       loadPage('./src/start.html')
         .then(
-          page => mainPage.innerHTML = page
-        );
-    });
-const iconPage = document.querySelector('.icon-akustyczni');
-    iconPage.addEventListener('click', function(){
-      loadPage('./src/start.html')
-        .then(
-          page => mainPage.innerHTML = page
-        );
+          page => {
+            mainPage.innerHTML = page
+            personObserver();
+  
+});
     });
 
 const bandPage = document.querySelector('.zespol-na-wesele');
     bandPage.addEventListener('click', function(){
       loadPage('./src/na-weselu.html')
         .then(
-          page => mainPage.innerHTML = page
+          page => {
+            mainPage.innerHTML = page
+            const maryla = document.getElementById('maryla')
+            console.log("dupa")
+          }
         );
     });
 

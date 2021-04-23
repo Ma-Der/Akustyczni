@@ -11,11 +11,10 @@
 @import './sections/footer';
 @import './sections/form';
 
-
-
 * {
+  background: rgba(38, 38, 38, 0.9);
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: grotesk-regular;
   padding: 0;
   margin: 0;
 }
